@@ -42,13 +42,13 @@ function addButtonControls(rental){
 function onEditKnife(e){
     const key = e.target.dataset.key;
     sessionStorage.setItem('key', key)
-    window.location.assign('update.html')
+    window.location.assign('../update.html')
 }
 
 function onRemoveKnife(e){
     const key = e.target.dataset.key;
     sessionStorage.setItem('key', key)
-    window.location.assign('delete.html')
+    window.location.assign('../delete.html')
 }
 
 export {knifeProduct}
