@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="msapplication-TileColor" content="#c8112e" />
+    <meta name="theme-color" content="#c8112e" />
+    <meta
+      name="description"
+      content="Storefront page for Zach's Knives"
+    />
+    <title>New Product</title>
+
+    <link rel="manifest" href="site.webmanifest" />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <script type="module" src="js/write.js"></script>
+  </head>
+
+  <body>
+    <nav class="content-page-app-bar">
+      
+      <div>
+        <img src="static/images/mainLogo.png" alt="Zach's Knives logo" width="40px" height="40px">
+        
+          <h2>Zach's Knives</h2>
+ 
+      </div>
+    
+      
+  
+       <button class="button-small">log out</button>
+     </li>
+
+ </nav>
+  <header class="page-header">
+    <h1>Zach's Knives</h1>
+    <p>Add new product</p>
+  </header>
+ 
+ 
+    <main>
+
+      <form id="knifeForm" class="add-new-knife">
+       
+        <div class="knife-image form-control">
+          <div class="display">
+            <img src="static/images/default.jpg" alt="jimhortons vacaction upload images of your vacaction rental">
+          </div>   
+            <label for="knifeImage">Select image </label>
+            <input type="file" id="knifeImage" style="display:none"  class="select-file"   accept=".jpg, .png, .jpeg, .webp">
+         
+          </div>
+
+        <div class="knife-name form-control">
+          <label for="knifeName">Knife name</label>         
+           <input id="knifeName" type="text" placeholder="Hunting Knife" >
+        </div>
+        <div class="knife-name form-control">
+          <label for="knifePrice">knife price</label>         
+           <input id="knifePrice" type="text" placeholder="0.00" >
+        </div>
+        <div class="knife-name form-control">
+          <label for="knifeSteel">knife steel</label>         
+           <input id="knifeSteel" type="text" placeholder="A1" >
+        </div>
+        
+        <div class="submit-button form-control">
+        <button type="submit">Add Product</button>
+
+        </div>
+        <div>
+          <a href="index.html" class="button">Home</a>
+        </div>
+      </form>
+   
+    </main>
+  </body>
+</html>
+ 
